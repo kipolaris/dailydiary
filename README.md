@@ -2,9 +2,13 @@
 
 ## Mobil- és webes szoftverek
 Dátum: 2023.10.20.
+
 Alkalmazás neve: DailyDiary
+
 Teljes név és Neptun kód: Csutora Lilla – GIQBWP
+
 E-mail cím: csutoralilla25@gmail.com
+
 Laborvezető: Gyenese Mátyás
 
 ## Bemutatás

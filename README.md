@@ -1,30 +1,30 @@
-# Házi feladat specifikáció
-
-Információk [itt](https://viauac00.github.io/laborok/hf)
+﻿# Házi feladat specifikáció
 
 ## Mobil- és webes szoftverek
-### [Dátum]
-### [Alkalmazás neve]
-### [Teljes név] - ([Neptun kód])
-### [e-mail cím] 
-### Laborvezető: [Laborvezető neve]
+Dátum: 2023.10.20.
+
+Alkalmazás neve: DailyDiary
+
+Teljes név és Neptun kód: Csutora Lilla – GIQBWP
+
+E-mail cím: csutoralilla25@gmail.com
+
+Laborvezető: Gyenese Mátyás
 
 ## Bemutatás
 
-Az alkalmazás rövid, 2-3 mondatos bemutatása. Honnan az ötlet, mi szülte az igényt, ki lehetne a célközönség.
-A laboron és előadáson bemutatott alkalmazásokat nem lehet házi feladatnak választani.
+A DailyDiary egy napló készítő alkalmazás, melybe lehet képeket csatolni a különböző bejegyzésekhez, és egy skálán lehet vezetni, hogy milyen napja volt a felhasználónak. Az ötlet a példaalkalmazások közül ered. Az alkalmazás azoknak az embereknek készül, akik szeretnék számontartani a különböző eseményeket az életükben, valamint hogy hogyan változik a hangulatuk.
 
 ## Főbb funkciók
 
-Az alkalmazás minden funkciójára kiterjedő leírás (röviden, lényegre törően). Legyen egyértelműen eldönthető, hogy az adott funkció implementálva van-e!
-Pl.: Az alkalmazással lehetőség van tételek felvételére és tárolására, valamint azok rendezett megjelenítésére, illetve frissítésre X hálózati hívás segítségével.
+- Bejegyzés létrehozása, törlése, mentése
+- Dátum szerint rendezhető lista a bejegyzésekkel
+- Kép csatolása a bejegyzéshez
+- 5 hangulatkifejező gomb a bejegyzéseken, melyek egy skálát alkotnak
 
 ## Választott technológiák:
 
-- (UI)
-- (fragmentek)
-- (RecyclerView)
-- (Perzisztens adattárolás)
-
-
-# Házi feladat dokumentáció (ha nincs, ez a fejezet törölhető)
+- UI
+- Fragmentek
+- RecyclerView
+- Perzisztens adattárolás

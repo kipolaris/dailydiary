@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainpageFragment">
+
+    <fragment
+        android:id="@+id/mainpageFragment"
+        android:name="hu.bme.aut.android.dailydiary.MainPageFragment"
+        android:label="fragment_mainpage"
+        tools:layout="@layout/fragment_mainpage">
+        <action
+            android:id="@+id/action_mainpageFragment_to_entryFragment"
+            app:destination="@id/newEntryFragment" />
+        <action
+            android:id="@+id/action_mainpageFragment_to_listFragment"
+            app:destination="@id/listFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/newEntryFragment"
+        android:name="hu.bme.aut.android.dailydiary.NewEntryFragment"
+        android:label="fragment_newentry"
+        tools:layout="@layout/fragment_newentry">
+        <action
+            android:id="@+id/action_newEntryFragment_to_listFragment"
+            app:destination="@id/listFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/listFragment"
+        android:name="hu.bme.aut.android.dailydiary.ListFragment"
+        android:label="fragment_list"
+        tools:layout="@layout/fragment_list" >
+        <action
+            android:id="@+id/action_listFragment_to_mainpageFragment"
+            app:destination="@id/mainpageFragment" />
+        <action
+            android:id="@+id/action_listFragment_to_oldEntryFragment"
+            app:destination="@id/oldEntryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/oldEntryFragment"
+        android:name="hu.bme.aut.android.dailydiary.OldEntryFragment"
+        android:label="fragment_oldentry"
+        tools:layout="@layout/fragment_oldentry" >
+        <action
+            android:id="@+id/action_oldEntryFragment_to_listFragment"
+            app:destination="@id/listFragment" />
+    </fragment>
+</navigation>

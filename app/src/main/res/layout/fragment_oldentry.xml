@@ -78,7 +78,7 @@
     <EditText
         android:id="@+id/content"
         android:layout_width="match_parent"
-        android:layout_height="300dp"
+        android:layout_height="500dp"
         android:layout_margin="10dp"
         android:layout_below="@+id/radioGroup"
         android:padding="20dp"
@@ -114,6 +114,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/content"
+        android:layout_marginTop="10dp"
         android:layout_marginRight="25dp"
         android:layout_marginLeft="25dp"
         android:text="@string/save"
